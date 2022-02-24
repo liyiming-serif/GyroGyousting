@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 9BallHighRes
-  m_Shader: {fileID: 4800000, guid: 631797e2e8514bf49ac7f53eba00fded, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1097269c97e2d264488dd630a1fb285b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -59,11 +59,37 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Pattern:
+        m_Texture: {fileID: 2800000, guid: 2dc9f79177d650249b2e5d99d3013119, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Ramp:
         m_Texture: {fileID: 2800000, guid: 4b09339c04f520448b2254837b24c3cf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 5bd67bacd8b4ef1438d4f91f7bc68334, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_2c1872de16ae461d8195e1b54f8f389c: 75
+    - Vector1_41677c952bbe4a909e626cc434552cfb: 0
+    - Vector1_c379f5b788864066806032ac472e1101: 1
+    - Vector1_c95e4c646f9841a2b82a694614d5414d: 0.597
+    - Vector1_e3a18a3e616b493096abd32e30737de9: 0
+    - Vector1_faa01e7e5cc5487998f107323a9ad1ac: 0.719
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -76,6 +102,7 @@ Material:
     - _Occlusion: 0.756
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _PatternScale: 8
     - _RemapInputMax: 1
     - _RemapInputMin: 0
     - _RemapOutputMax: 1
@@ -87,6 +114,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - Color_d0418c743bf94682b0e58951c8e9c048: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0.039546248, g: 0.039546248, b: 0.039546248, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
