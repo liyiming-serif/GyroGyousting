@@ -136,43 +136,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.6643105
+      value: 1.8457614
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.023451
+      value: 3.6733334
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.78
+      value: 2.6358855
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92747825
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.050744858
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.3456267
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.13323423
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -10.733
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 39.701
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 12.465
       objectReference: {fileID: 0}
     - target: {fileID: -2577548232221058511, guid: 60c17e5ee8609aa4eb7bf277a6cfdec1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -333,7 +334,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -357,13 +358,46 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.052804984, y: 0.8985515, z: -0.112732835, w: -0.4208423}
+  m_LocalPosition: {x: 9.657795, y: 6.781349, z: 9.109831}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &1102134586
 PrefabInstance:
   m_ObjectHideFlags: 0
