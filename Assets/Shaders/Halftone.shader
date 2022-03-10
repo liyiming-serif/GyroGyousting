@@ -1,4 +1,4 @@
-Shader "Unlit/Halftone"
+Shader "Surface /Halftone"
 {
     //show values to edit in inspector
     Properties
