@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mincemeat Material
-  m_Shader: {fileID: 4800000, guid: 9f108eb4e2b6a5549b2c6950a4f6a5fb, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 2fd6a984f312fb945911314068dbba09, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Pattern:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2dc9f79177d650249b2e5d99d3013119, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
@@ -80,7 +80,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_2c1872de16ae461d8195e1b54f8f389c: 75
+    - Vector1_41677c952bbe4a909e626cc434552cfb: 0
+    - Vector1_92e70a6755e34673b9e192b9318e4431: 6
     - Vector1_c371281351e7486cb6051c6d04d2b85f: 1
+    - Vector1_c379f5b788864066806032ac472e1101: 1
+    - Vector1_c95e4c646f9841a2b82a694614d5414d: 0
+    - Vector1_e3a18a3e616b493096abd32e30737de9: 0
+    - Vector1_faa01e7e5cc5487998f107323a9ad1ac: 1
+    - _Angle: 2.37
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _Density: 15
