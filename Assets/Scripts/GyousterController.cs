@@ -22,15 +22,12 @@ public class GyousterController : MonoBehaviour
         _bodyCounterTorque = new RotationalForceApplicator(_body, 50000, 120, Vector3.up);
         _pitchTorque = new RotationalForceApplicator(_body, 20000, 100, Vector3.right);
         _rollTorque = new RotationalForceApplicator(_body, 15000, 100, Vector3.back);
-        _controls = new PlayerController();
+        
+        // Attach the input controller (player or AI) as a component
+        _controls = GetComponent<InputController>();
 
         // This should account for any weird wobbling caused by misaligned pivots.
         _body.centerOfMass = Vector3.zero;
-    }
-
-    void Update()
-    {
-        _controls.HandleInput();
     }
 
     void FixedUpdate()

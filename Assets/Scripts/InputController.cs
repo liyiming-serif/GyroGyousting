@@ -1,7 +1,7 @@
-public abstract class InputController  
-{
-    public abstract void HandleInput();
+using UnityEngine;
 
+public abstract class InputController : MonoBehaviour
+{
     public float Pitch
     {
         get;
